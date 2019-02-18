@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+  		<title>Visualization Dashboard</title>
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  		<link rel="stylesheet" href="css//style.css">
+  		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		
+	</head>
+
+	<body id="body-bg">
+		<nav class="navbar navbar-default">
+		 	<div class="container-fluid">
+		 		<!-- Brand and toggle get grouped for better mobile display -->
+		 		<div class="navbar-header">
+		 			<a class="navbar-brand" href="index.html">WeatherPy</a>
+			 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			 			<span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				     </button>
+				     
+    			</div>
+
+			  	<!-- Collect the nav links, forms, and other content for toggling -->
+	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      			<ul class="nav navbar-nav navbar-right">
+	      				<li class="dropdown">
+				          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+				          	<ul class="dropdown-menu">
+					            <li><a href="maxtemp.html">Max Temperature</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="humidity.html">Humidity</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="cloudliness.html">Cloudliness</a></li>
+					            <li role="separator" class="divider"></li>
+					           	<li><a href="windspeed.html">Wind Speed</a></li>
+				          	</ul>
+				        </li>
+				        <li><a href="comparison.html">Comparison</a></li>
+				        <li><a href="data.html">Data</a></li>
+				        
+				    </ul>
+	    		</div><!-- /.navbar-collapse -->
+  			</div><!-- /.container-fluid -->
+		</nav>
+
+		<!CONTENT>
+		<div class="contaniner-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="box">
+						<div>
+							<h1>Comparison: Latitude vs. X</h1>
+							<hr size="10" noshade>
+							<p class="para">Click any plot get in-depth analysis.</p>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-6">
+								<div class="box-comparison">
+									<h2>vs. Max. Temperature</h2>
+								</div>
+	                            <a href="maxtemp.html">
+	                              <img src="Output/Temperature.jpeg" alt="Latitude vs. Temperature" class="img-contain">
+	                          </a>
+							</div>	
+							<div class="col-xs-12 col-sm-12 col-md-6">
+								<div class="box-comparison">
+									<h2>vs. Humidity</h2>
+								</div>
+								<a href="humidity.html">
+									<img src="Output/Humidity.jpeg" alt="Latitude vs. Humidity" class="img-contain">
+								</a>
+							</div>	
+						</div>	
+
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-6">
+								<div class="box-comparison">
+									<h2>vs. Cloudliness</h2>
+								</div>
+								<a href="cloudliness.html">
+									<img src="Output/Cloudiness.jpeg" class="img-contain">
+								</a>
+							</div>	
+							<div class="col-xs-12 col-sm-12 col-md-6">
+								<div class="box-comparison">
+									<h2>vs. Wind Speed</h2>
+								</div>
+								<a href="windspeed.html">
+									<img src="Output/Windspeed.jpeg" class="img-contain">
+								</a>
+							</div>	
+						</div>
+					</div>		
+				</div>	
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</body>
+
+</html>

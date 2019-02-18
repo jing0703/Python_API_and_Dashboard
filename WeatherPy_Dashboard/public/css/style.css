@@ -1,0 +1,91 @@
+.navbar-default .navbar-brand{
+    color: #FFF;
+    background-color: #FF5733;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin-left: 40px !important;
+}
+
+.navbar-default{
+	 background-color: #FFF;
+	 margin-bottom: 20px;
+	 font-size:20px;
+}
+
+.box{
+	background-color: #FFF;
+	padding: 20px;
+	margin: 20px;
+}
+.box-right{
+	background-color: #FFF;
+	padding: 20px;
+	margin: 20px 20px 20px 0px;
+
+}
+.box-left{
+	background-color: #FFF;
+	padding: 20px;
+	margin:20px 0px 20px 20px;
+}
+	
+.box-comparison{
+	margin: 5px 20px 5px 75px;
+}
+
+.img-index {
+float: left; 
+margin: 0px 15px 15px 0px;
+}
+
+.img-visualizationpg{
+	height:75%; 
+	width: 75%; 
+	text-align: center;
+	object-fit: contain;
+}
+
+.img-contain{
+	height:100%; 
+	width: 100%; 
+	object-fit: contain;
+}
+
+.para{
+	line-height: 25px;
+	font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    align-content: stretch;
+    background-color: #FFF;
+    padding:20px;
+}
+
+
+h1{
+	font-family: "Times New Roman", Times, serif;
+	color: #E69823;
+    background-color: #FFF;
+    padding:20px;
+}
+h2{
+	font-family: "Times New Roman", Times, serif;
+	color: #E69823;
+    background-color: #FFF;
+    padding:15px;
+
+}
+p{
+	line-height: 25px;
+	font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    align-content: stretch;
+    background-color: #FFF;
+}
+
+#body-bg{
+	background-color: #ECECEA;
+}
+
+
+

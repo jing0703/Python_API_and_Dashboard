@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+			<title>Visualization Dashboard</title>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			<link rel="stylesheet" href="css//style.css">	
+	</head>
+
+	<body id="body-bg">
+		<nav class="navbar navbar-default">
+		 	<div class="container-fluid">
+		 		<!-- Brand and toggle get grouped for better mobile display -->
+		 		<div class="navbar-header">
+		 			<a class="navbar-brand" href="index.html">WeatherPy</a>
+    			</div>
+
+			  	<!-- Collect the nav links, forms, and other content for toggling -->
+	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      			<ul class="nav navbar-nav navbar-right">
+	      				<li class="dropdown">
+				          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+				          	<ul class="dropdown-menu">
+					            <li><a href="maxtemp.html">Max Temperature</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="humidity.html">Humidity</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="cloudliness.html">Cloudliness</a></li>
+					            <li role="separator" class="divider"></li>
+					           	<li><a href="windspeed.html">Wind Speed</a></li>
+				          	</ul>
+				        </li>
+				        <li><a href="comparison.html">Comparison</a></li>
+				        <li><a href="data.html">Data</a></li>
+				        
+				    </ul>
+	    		</div><!-- /.navbar-collapse -->
+  			</div><!-- /.container-fluid -->
+		</nav>
+
+		<!CONTENT>
+		<div class="contaniner-fluid">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="box-left">
+						<div>
+							<h1>Summary</h1>
+							<hr size="10" noshade>
+							<p><font face = "arial, verdana, sans-serif" size = "5" color = "#000000">
+								The purpose of this project is to visualize the weather of 500+ cities across the world of varying distance from the equator and analyze the weather changes that occur based on the position away from the equator 
+							</font></p>
+						</div>
+						<div class="clearfix">
+							<img class="pull-left" src="Output//world-weather.jpeg" height="320" width="480" hspace="20">
+							
+							<h4> <font face = "arial, verdana, sans-serif" size = "4" color = "#000000">To accomplish this analysis, we extracted data from the Open Weather Map API and transformed a dataset of 500+ cities that was randomly generated.</font></h4>
+
+							<h4><font face = "arial, verdana, sans-serif" size = "4" color = "#000000">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.The factors that we considered included: Temperature, Cloudliness, Wind Speed and Humidity.
+							</font></h4>
+							<h4><font face = "arial, verdana, sans-serif" size = "4" color = "#000000">
+								This site provides  the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and corelations witnessed.
+							</font></h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="box-right">
+						<div>
+							<h2>Weather Analysis</h2>
+							<hr size="10" noshade>
+						</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-6">
+		                            <a href="maxtemp.html">
+		                              <img src="Output/Temperature.jpeg" alt="Latitude vs. Temperature" class="img-contain">
+		                          </a>
+								</div>	
+								<div class="col-xs-3 col-sm-3 col-md-6">
+									<a href="humidity.html">
+										<img src="Output/Humidity.jpeg" alt="Latitude vs. Humidity" class="img-contain">
+									</a>
+								</div>	
+							</div>	
+
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-6">
+									<a href="cloudliness.html">
+										<img src="Output/Cloudiness.jpeg" class="img-contain">
+									</a>
+								</div>	
+								<div class="col-xs-3 col-sm-3 col-md-6">
+									<a href="windspeed.html">
+										<img src="Output/Windspeed.jpeg" class="img-contain">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</body>
+
+</html>
