@@ -8,7 +8,7 @@ This project used Python requests, APIs, and JSON traversals creating a represen
 
 To accomplish this, I utilized OpenWeatherMap, citipy library, Matplotlib and Pandas to visualize the weather of 500+ cities across the world of varying distance from the equator.
 
-Ruby on Rails was used to deploy the application to Heroku.
+Ruby on Rails was used to deploy the application to Heroku and bootstrap theme was used to customize the website.
 
 ## Summary
 
