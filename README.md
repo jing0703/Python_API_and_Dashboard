@@ -2,7 +2,7 @@
 
 ## Preview
 
-### [View Website](https://weatherpy0703.herokuapp.com/maxtemp.html)
+### [View Website](https://weatherpy0703.herokuapp.com/index.html)
 
 This project used Python requests, APIs, and JSON traversals creating a representative model of weather across world cities. 
 
